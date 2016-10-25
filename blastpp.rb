@@ -1,4 +1,4 @@
-class Blast < Formula
+class Blastpp < Formula
   desc "Basic Local Alignment Search Tool"
   homepage "http://blast.ncbi.nlm.nih.gov/"
   # doi "10.1016/S0022-2836(05)80360-2"
