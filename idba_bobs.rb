@@ -3,8 +3,8 @@ class Idba < Formula
   # doi "10.1093/bioinformatics/bts174"
   # tag "bioinformatics"
 
-  url "https://codeload.github.com/loneknightpy/idba/tar.gz/master"
-  sha256 "1e0dd0a8aec012418cec3bee865bfb9e9fa2525462bc60536c9878884e3b4d25"
+  version `date +%Y%m%d`.gsub("\n","")
+  url "https://github.com/loneknightpy/idba.git", :branch => "master"
 
   bottle do
     cellar :any
