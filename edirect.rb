@@ -8,7 +8,6 @@ class Edirect < Formula
   depends_on "LWP::Simple" => :perl
   depends_on "LWP::Protocol::https" => :perl
   depends_on "go" => :build
-  depends_on "godep" => :build
 
   def install
     doc.install "README"
