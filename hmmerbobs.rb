@@ -1,4 +1,4 @@
-class Hmmer < Formula
+class Hmmerbobs < Formula
   homepage "http://hmmer.janelia.org"
   # doi "10.1371/journal.pcbi.1002195"
   # tag "bioinformatics"
