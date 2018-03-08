@@ -6,7 +6,7 @@ class Ampliconnoise < Formula
 
   #depends_on "gsl"
   depends_on "mafft"
-  depends_on :mpi => :cc
+  depends_on :open-mpi => :cc
 
   def install
     system "make", "clean"
