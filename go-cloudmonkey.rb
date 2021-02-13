@@ -11,7 +11,7 @@ class GoCloudmonkey < Formula
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    system "make", *std_go_args, "all"
+    system "make", "all"
     bin.install Dir.glob("bin/*")
   end
 
